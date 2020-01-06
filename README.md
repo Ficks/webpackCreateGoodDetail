@@ -1,0 +1,2 @@
+# webpackCreateGoodDetail
+使用webpack搭建开发环境开发一个商品详情页
