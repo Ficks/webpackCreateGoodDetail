@@ -8,16 +8,16 @@
 // }
 
 // document.body.appendChild (component ());
-import '../css/index.less';
-import {showToast} from './common';
-import Vue from 'vue/dist/vue.js';
+import "../css/index.less";
+import { showToast } from "./common";
+import Vue from "vue/dist/vue.js";
 
-new Vue ({
-  el: '#app',
+new Vue({
+  el: "#app",
   data: {
-    title: '哈哈哈',
+    title: "哈哈哈"
   },
-  created () {
-    showToast ('成功');
-  },
+  created() {
+    showToast("成功");
+  }
 });
